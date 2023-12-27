@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: aqua;
+}
+
+.titre-h4{
+    color: aquamarine;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.paragrConteneur1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 0.1rem;
+    color: rgb(58, 57, 57);
+}
+
+
+
+/* en dessous nous avons la boite verte des patients*/
+.conteneurPatient{
+    background-color: rgb(43, 247, 179);
+    height: 50vh;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 0.8rem;
+}
+/*en dessous nous avons la boite bleu des médecins */
+.conteneurMedecin{
+    background-color: rgb(70, 145, 243);
+    height: 50vh;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 1.8rem;
+}
+
+/*en dessous nous avons la boite noir des cliniques */
+.conteneurClinique{
+    background-color: rgb(27, 27, 27);
+    height: 50vh;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 2.5rem;
+}
+
+/*les paragraph des boites */
+.conteneurClinique p{
+    color: white;
+    font-size: 25px;
+}
+
+.conteneurMedecin p{
+    color: white;
+    font-size: 25px;
+}
+
+.conteneurPatient p{
+    color: white;
+    font-size: 25px;
+}
+
+/* css des H4 des trois boites de de couleurs verte bleu et noir*/
+
+.conteneurClinique h4{
+    color: white;
+    font-size: 20px;
+}
+
+.conteneurMedecin h4{
+    color: white;
+    font-size: 20px;
+}
+
+.conteneurPatient H4{
+    color: white;
+    font-size: 20px;
+}
