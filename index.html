@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Docplanner</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
         <!--ci dessous nous avons la barre de navigation-->
         <div class="navbar">
-            <div><img src="" alt="logo"> Docplanner Group</div>
-            <nav>
-                <a href="">Qui sommes-nous</a>
-                <a href="">Carrière</a>
-                <a href="">Minitère</a>
-            </nav>
+            <img src="" alt="Docplanner Group"> 
+            <div class="permier-A"><a href="">Qui sommes nous</a></div>
+            <div><a href="">Carrière</a></div>
+            <div><a href="">Ministère</a></div>
         </div>
     </header>
     <main>
-        <div>
+        <div class="etoile">
             <i class="fa-solid fa-star-of-life"></i>
         </div>
          <div class="titre-h4"><h4>Rendre l'expérience de soins plus humaine</h4></div>
@@ -42,14 +41,13 @@
                   </div>
             </div>
         </div>
-        <!--en dessous nous avons les trois premiers carrés de la page d'acceuil-->
-        <div class="container PremierConteneur">
-            <div class="row">
-                <div class="col-4 conteneurPatient">
-                    <h4>Pour les patients</h4>
-                    <p>
-                        Trouvez un médecin, prenez rendez-vous et résolvez tout doute lié à la santé
-                    </p>
+        <!--Création des premieres boites de la page d'acceuil si dessous-->
+        <section class="boitesPrimaires">
+            <div class="container conteneur">
+                <div class="boite1">
+                    <i class="fa-solid fa-people-group iconeBoite"></i>
+                    <H5>Pour les patients</H5>
+                    <p>Trouvez un médecin, prenez rendez-vous et résolvez tout doute lié à la santé</p>
                     <select name="texte" id="" style="border: none;">
                         <option value="">Choisir un pays</option>
                         <option value="Sénégal">Sénégal</option>
@@ -61,11 +59,10 @@
                         <option value="Rwanda">Rwanda</option>
                     </select>
                 </div>
-                <div class="col-4 conteneurMedecin">
-                    <h4>Pour les médecins</h4>
-                    <p>
-                        Pour les médecinsGagnez du temps dans la gestion des visites et réduisez de moitié les absences
-                    </p>
+                <div class="boite2">
+                    <i class="fa-solid fa-user-nurse iconeBoite"></i>
+                    <h5>Pour les médecins</h5>
+                    <p>Pour les médecinsGagnez du temps dans la gestion des visites et réduisez de moitié les absences</p>
                     <select name="texte" id="" style="border: none;">
                         <option value="">Choisir un pays</option>
                         <option value="Sénégal">Sénégal</option>
@@ -77,11 +74,10 @@
                         <option value="Rwanda">Rwanda</option>
                     </select>
                 </div>
-                <div class="col-4 conteneurClinique">
-                    <h4>Pour les Cliniques</h4>
-                    <p>
-                        Pour les cliniquesOffrez une expérience exceptionnelle aux patients dans votre clinique
-                    </p>
+                <div class="boite3">
+                    <i class="fa-solid fa-hospital iconeBoite"></i>
+                    <h5>Pour les Cliniques</h5>
+                    <p>Pour les cliniquesOffrez une expérience exceptionnelle aux patients dans votre clinique</p>
                     <select name="" id="" style="border: none;">
                         <option value="">2 à 20 specialistes</option>
                         <option value="Sénégal">Sénégal</option>
@@ -106,7 +102,80 @@
                 </div>
 
             </div>
-        </div>
+        </section>
+        <!--section des icones et le paragraphe suite aligner en dessous des boites-->
+        <section>
+            <div class="container conteneur2">
+                <div class="row">
+                    <div class="col-2">Nous sommes une entreprise mondiale avec une culture locale</div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <i class="fa-solid fa-star-of-life"></i>
+                        <a href="https://www.znanylekarz.pl/">znanylekarz</a>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-star-of-life"></i>
+                        <a href="https://www.doctoralia.es/">doctoralia</a>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-star-of-life"></i>
+                        <a href="https://www.miodottore.it/">miodottore</a>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-star-of-life"></i>
+                        <a href="https://www.doktortakvimi.com/">doktortakvimi</a>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-star-of-life"></i>
+                        <a href="https://www.jameda.de/">jameda</a>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+        <!--la section si dessous est la zone verte de sur la page d'acceuille-->
+        <section>
+            <div class="container-fluid sectionVert">
+                <div class="Div1">
+                    <h3>La plus <br>grande plateforme de soins de santé au monde</h3>
+                    <p>Nous travaillons à partir de 9 bureaux dans le monde entier, donnant vie au groupe Docplanner dans 13 pays</p>
+                    <br>
+                    <i class="fa-solid fa-star-of-life starVert"></i>
+                </div>
+                <div class="container Div2">
+                   <div class="row">
+                    <div class="col-6">
+                        <i class="fa-regular fa-flag"></i>
+                        <h5>Leader dans 13 pays</h5>
+                        <p>Pologne, Brésil, Mexique, Espagne, Italie, Allemagne, Turquie, Colombie, République tchèque, Portugal, Argentine, Pérou et Chil</p>
+                    </div>
+                    <div class="col-6">
+                        <i class="fa-solid fa-calendar"></i>
+                        <h5>15 000 000 derendez-vous</h5>
+                        <p>réservé le mois dernier</p>
+                    </div>
+                   </div>
+                   <div class="row">
+                    <div class="col-6">
+                        <i class="fa-solid fa-users"></i>
+                        <H5>90 000 000 de patients</H5>
+                        <p>Visitez nos sites Web chaque mois</p>
+                    </div>
+                    <div class="col-6">
+                        <i class="fa-solid fa-users-line"></i>
+                        <H5>210 000 médecins actifs</H5>
+                        <p>Faites confiance à nos solutions</p>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>

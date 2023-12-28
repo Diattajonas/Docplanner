@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +6,44 @@
 }
 
 .navbar{
+    top: 0;
     width: 100%;
     height: 10vh;
-    background-color: aqua;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
 }
 
+.navbar a{
+   text-decoration: none;
+   color: #747474;
+   font-size: 20px;
+}
+.permier-A a{
+    color: #00b39b;
+
+}
+
+header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: #00b39b;
+    display: flex;
+    justify-content: space-around;
+}
+
+.etoile{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    color: #00b39b;
+}
 .titre-h4{
-    color: aquamarine;
+    color: #00b39b;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 20px;
@@ -21,66 +53,143 @@
     margin-top: 50px;
     margin-bottom: 50px;
     letter-spacing: 0.1rem;
-    color: rgb(58, 57, 57);
+    color: #747474;
 }
 
+/*css du conteneur des boitesPrimaires*/
+.conteneur{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    justify-items: center;
 
+}
+@media (max-width:576px) {
+    .conteneur{
+        flex-direction: column;
+    }
+}
 
-/* en dessous nous avons la boite verte des patients*/
-.conteneurPatient{
-    background-color: rgb(43, 247, 179);
-    height: 50vh;
-    width: 30%;
+.boite1{
+    background-color: #00b39b;
     border-radius: 10px;
-    margin-left: 0.8rem;
-}
-/*en dessous nous avons la boite bleu des médecins */
-.conteneurMedecin{
-    background-color: rgb(70, 145, 243);
+    padding-left: 12px;
     height: 50vh;
-    width: 30%;
-    border-radius: 10px;
-    margin-left: 1.8rem;
+    width: 50vh;
 }
 
-/*en dessous nous avons la boite noir des cliniques */
-.conteneurClinique{
-    background-color: rgb(27, 27, 27);
+.boite2{
+    background-color: #20a1f7;
+    border-radius: 10px;
+    padding-left: 12px;
     height: 50vh;
-    width: 30%;
+    width: 50vh;
+}
+
+.boite3{
+    background-color: #747474;
     border-radius: 10px;
-    margin-left: 2.5rem;
+    padding-left: 12px;
+    height: 50vh;
+    width: 50vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-/*les paragraph des boites */
-.conteneurClinique p{
-    color: white;
+.iconeBoite{
+    color: #fff;
     font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
-.conteneurMedecin p{
-    color: white;
-    font-size: 25px;
+.conteneur h5{
+    color: #fff;
+    font-size: 26px;
+    font-family: roboto ;
 }
 
-.conteneurPatient p{
-    color: white;
-    font-size: 25px;
+.conteneur p{
+    color: #fff;
 }
 
-/* css des H4 des trois boites de de couleurs verte bleu et noir*/
-
-.conteneurClinique h4{
-    color: white;
-    font-size: 20px;
+/*css sur les éléments de la section 2 */
+.conteneur2{
+    margin-top: 35px;
+    display: grid;
+    flex-wrap: nowrap;
+    align-items: start;
+    margin-bottom: 30px;
 }
 
-.conteneurMedecin h4{
-    color: white;
-    font-size: 20px;
+/*css sur la section de background vert*/
+.sectionVert{
+    width: 100%;
+    background-color:#e5faf8;
+    display: flex;
+
 }
 
-.conteneurPatient H4{
-    color: white;
-    font-size: 20px;
+.Div1{
+    width: 50%;
+    height: 100vh;
 }
+
+.Div1 h3{
+    font-size: 30px;
+    color: #00b39b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 95px;
+    margin-top: 30px;
+    width: 70vh;
+    letter-spacing: 0.1rem;
+}
+
+.Div1 p{
+    margin-left: 95px;
+    margin-top: 30px;
+    width: 50vh;
+    color: #747474;
+}
+
+.Div2{
+    width: 50%;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+.Div2 .col-6{
+    background-color: #fff;
+    gap: 20px;
+    border-radius: 7px;
+    width: 35vh;
+    height: 40vh;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+@media (max-width :576px) {
+    .sectionVert{
+        flex-direction: column;
+        width: 100%;
+    }
+    .Div1{
+        width: 100%;
+        height: auto;
+    }
+    .Div2{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.starVert{
+    font-size: 50vh;
+    color: #00b39b;
+    margin: 25px;
+}
+
+
+
+
