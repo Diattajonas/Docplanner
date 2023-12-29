@@ -11,11 +11,15 @@
   <body>
     <header>
         <!--ci dessous nous avons la barre de navigation-->
-        <div class="navbar">
-            <img src="" alt="Docplanner Group"> 
-            <div class="permier-A"><a href="">Qui sommes nous</a></div>
-            <div><a href="">Carrière</a></div>
-            <div><a href="">Ministère</a></div>
+        <div class="navBar">
+            <div class="logo">
+                <img src="image/doctor.png" alt="logo">
+            </div>
+            <nav class="nav">
+                <a class="nav-link active" aria-current="page" href="#">accueil</a>
+                <a class="nav-link active" aria-current="page" href="#">Carrière</a>
+                <a class="nav-link active" aria-current="page" href="#">Ministère</a>
+              </nav>
         </div>
     </header>
     <main>
@@ -25,14 +29,14 @@
          <div class="titre-h4"><h4>Rendre l'expérience de soins plus humaine</h4></div>
         <div class="container paragrConteneur1">
             <div class="row">
-                <div class="col-6 ">
+                <div class="col-md-6 ">
                     <p>Nous voulons que les patients trouvent le médecin idéal et 
                         prennent rendez-vous de la manière la plus simple possible. 
                         Le parcours du patient doit être agréable, et c’est pourquoi nous sommes toujours à ses côtés : 
                         pour l’aider à trouver les meilleurs soins possibles. N’importe quand, n’importe où
                     </p>
                 </div>
-                <div class="col-6">  
+                <div class="col-md-6">  
                        <p>
                           Nous aidons également les médecins à mieux gérer leur pratique et à bâtir leur réputation en ligne. 
                           Grâce à notre solution intégrée de bout en bout, les médecins sont en mesure non seulement d’améliorer 
@@ -42,13 +46,13 @@
             </div>
         </div>
         <!--Création des premieres boites de la page d'acceuil si dessous-->
-        <section class="boitesPrimaires">
+        <section>
             <div class="container conteneur">
                 <div class="boite1">
                     <i class="fa-solid fa-people-group iconeBoite"></i>
-                    <H5>Pour les patients</H5>
+                    <h5 style="color: #fff;">Pour les patients</h5>
                     <p>Trouvez un médecin, prenez rendez-vous et résolvez tout doute lié à la santé</p>
-                    <select name="texte" id="" style="border: none;">
+                    <select name="texte" id="" style="border: none; background-color: #00b39b; text-decoration: underline; color: white; font-size:20px;">
                         <option value="">Choisir un pays</option>
                         <option value="Sénégal">Sénégal</option>
                         <option value="Gambie">Gambie</option>
@@ -61,9 +65,9 @@
                 </div>
                 <div class="boite2">
                     <i class="fa-solid fa-user-nurse iconeBoite"></i>
-                    <h5>Pour les médecins</h5>
+                    <h5 style="color: #fff;">Pour les médecins</h5>
                     <p>Pour les médecinsGagnez du temps dans la gestion des visites et réduisez de moitié les absences</p>
-                    <select name="texte" id="" style="border: none;">
+                    <select name="texte" id="" style="border: none; background-color: #20a1f7; text-decoration: underline; color: white; font-size:20px;">
                         <option value="">Choisir un pays</option>
                         <option value="Sénégal">Sénégal</option>
                         <option value="Gambie">Gambie</option>
@@ -76,9 +80,9 @@
                 </div>
                 <div class="boite3">
                     <i class="fa-solid fa-hospital iconeBoite"></i>
-                    <h5>Pour les Cliniques</h5>
+                    <h5 style="color: #fff;">Pour les Cliniques</h5>
                     <p>Pour les cliniquesOffrez une expérience exceptionnelle aux patients dans votre clinique</p>
-                    <select name="" id="" style="border: none;">
+                    <select name="" id="" style="border: none; background-color: #747474; text-decoration: underline; color: white; font-size:20px;">
                         <option value="">2 à 20 specialistes</option>
                         <option value="Sénégal">Sénégal</option>
                         <option value="Gambie">Gambie</option>
@@ -89,7 +93,7 @@
                         <option value="Rwanda">Rwanda</option>
                     </select>
                     <br>
-                    <select name="" id="" style="border: none;">
+                    <select name="" id="" style="border: none; background-color: #747474; text-decoration: underline; color: white; font-size:20px;">
                         <option value="">Plus de 20 specialistes</option>
                         <option value="Sénégal">Sénégal</option>
                         <option value="Gambie">Gambie</option>
@@ -105,38 +109,11 @@
         </section>
         <!--section des icones et le paragraphe suite aligner en dessous des boites-->
         <section>
-            <div class="container conteneur2">
-                <div class="row">
-                    <div class="col-2">Nous sommes une entreprise mondiale avec une culture locale</div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <i class="fa-solid fa-star-of-life"></i>
-                        <a href="https://www.znanylekarz.pl/">znanylekarz</a>
-                    </div>
-                    <div class="col">
-                        <i class="fa-solid fa-star-of-life"></i>
-                        <a href="https://www.doctoralia.es/">doctoralia</a>
-                    </div>
-                    <div class="col">
-                        <i class="fa-solid fa-star-of-life"></i>
-                        <a href="https://www.miodottore.it/">miodottore</a>
-                    </div>
-                    <div class="col">
-                        <i class="fa-solid fa-star-of-life"></i>
-                        <a href="https://www.doktortakvimi.com/">doktortakvimi</a>
-                    </div>
-                    <div class="col">
-                        <i class="fa-solid fa-star-of-life"></i>
-                        <a href="https://www.jameda.de/">jameda</a>
-                    </div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                    <div class="col"></div>
-                </div>
-            </div>
+
+
+
+
+
         </section>
         <!--la section si dessous est la zone verte de sur la page d'acceuille-->
         <section>
@@ -150,24 +127,24 @@
                 <div class="container Div2">
                    <div class="row">
                     <div class="col-6">
-                        <i class="fa-regular fa-flag"></i>
+                        <i class="fa-regular fa-flag" style="font-size: 35px; color: #00b39b; text-align: center;"></i>
                         <h5>Leader dans 13 pays</h5>
                         <p>Pologne, Brésil, Mexique, Espagne, Italie, Allemagne, Turquie, Colombie, République tchèque, Portugal, Argentine, Pérou et Chil</p>
                     </div>
                     <div class="col-6">
-                        <i class="fa-solid fa-calendar"></i>
+                        <i class="fa-solid fa-calendar" style="font-size: 35px; color: #00b39b; text-align: center;"></i>
                         <h5>15 000 000 derendez-vous</h5>
                         <p>réservé le mois dernier</p>
                     </div>
                    </div>
                    <div class="row">
                     <div class="col-6">
-                        <i class="fa-solid fa-users"></i>
+                        <i class="fa-solid fa-users" style="font-size: 35px; color: #00b39b; text-align: center;"></i>
                         <H5>90 000 000 de patients</H5>
                         <p>Visitez nos sites Web chaque mois</p>
                     </div>
                     <div class="col-6">
-                        <i class="fa-solid fa-users-line"></i>
+                        <i class="fa-solid fa-users-line" style="font-size: 35px; color: #00b39b; text-align: center;"></i>
                         <H5>210 000 médecins actifs</H5>
                         <p>Faites confiance à nos solutions</p>
                     </div>
@@ -175,8 +152,182 @@
                 </div>
             </div>
         </section>
+        <!--section des deux paragraphes de background black de la page d'accueil-->
+        <section>
+            <div class="para1">
+                <h4>Améliorez la vie de millions<br> de personnes. Changez le vôtre pour<br> toujours.</h4>
+            </div>
+            <div class="para2">
+                <p>Plus de 2800 coéquipiers partagent notre vision, nos objectifs et notre<br> passion. Avec des bureaux à Varsovie, Barcelone, Munich, Istanbul, Rome,<br> Rio, Bologne, Mexico et Curitiba, notre recherche de grands talents ne <br>s’arrête jamais.</p>
+            </div>
+        </section>
+
+        <!--la section si dessous est celle des grilles de photo de la page d'accueil-->
+        <section>
+            <div class="container text-center">
+                <div class="ligne1 row">
+                  <div class="colonne1 col">
+                    <div><img src="image/city-3378773_640.jpg" alt="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>France</h6>
+                            </div>
+                            <div class="col-md-8">  
+                                <a href="#" class="btn btn-primary">voir les offres d'emploi</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div><img src="image/city-2567670_640.jpg" alt="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>suisse</h6>
+                            </div>
+                            <div class="col-md-8">
+                                <a href="#"class="btn btn-primary">voir les offres d'emploi</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div><img src="image/prague-4.jpg" alt="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Portugal</h6>
+                            </div>
+                            <div class="col-md-8">
+                                <a href="#"class="btn btn-primary">voir les offres d'emploi</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ligne2 row">
+                  <div class="col">
+                    <div><img src="image/rhine-river-3453860_640.jpg" alt="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Espagne</h6>
+                            </div>
+                            <div class="col-md-8">
+                                <a href="#"class="btn btn-primary">voir les offres d'emploi</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div><img src="image/singapore-1990959_640.jpg" alt="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Belgique</h6>
+                            </div>
+                            <div class="col-md-8">
+                                <a href="#"class="btn btn-primary">voir les offres d'emploi</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div><img src="image/architecture-1868667_640.jpg" alt="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Bretagne</h6>
+                            </div>
+                            <div class="col-md-8">
+                                <a href="#"class="btn btn-primary">voir les offres d'emploi</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ligne3 row">
+                  <div class="col">
+                    <div><img src="image/meadows-1.jpg" alt="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Allemagne</h6>
+                            </div>
+                            <div class="col-md-8">
+                                <a href="#"class="btn btn-primary">voir les offres d'emploi</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div><img src="image/people-2.jpg" alt="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Japon</h6>
+                            </div>
+                            <div class="col-md-8">
+                                <a href="#"class="btn btn-primary">voir les offres d'emploi</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div><img src="image/road-3.jpg" alt="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Chine</h6>
+                            </div>
+                            <div class="col-md-8">
+                                <a href="#"class="btn btn-primary">voir les offres d'emploi</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!--la toute derniere section de la page d'accueil-->
+        <section>
+            <div class="lastpara">
+                <H5>Cela vous intéresse ? Rejoignez-nous<br> dès maintenant !</H5>
+            </div>
+            <div class="d-grid col-md-4 mx-auto"style="padding-bottom:70px">
+                <button class="btn btn-primary" type="button">VOIR TOUTES LES OFFRES D'EMPLOI ACTUELLES</button>
+              </div>
+        </section>
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
+  <footer style="border: 0.10px solid #747474; height: 15vh;">
+    <div class=" conteneurPied container">
+        <div class="row">
+        <div class="col-md-3">
+            <p>Nous sommes également leader dans 13 payes</p>
+        </div>
+        <div class="col">
+            <a href="" style="text-decoration: none; font-size: 12px;">Pologne</a>
+        </div>
+        <div class="col">
+            <a href="" style="text-decoration: none; font-size: 12px;">Turquie</a>
+        </div>
+        <div class="col">
+            <a href="" style="text-decoration:none;font-size: 12px;">Espagne</a>
+        </div>
+        <div class="col">
+            <a href="" style="text-decoration: none; font-size: 12px;">Italie</a>
+        </div>
+        <div class="col">
+            <a href="" style="text-decoration: none; font-size: 12px;">Allemagne</a>
+        </div>
+        <div class="col">
+            <a href="" style="text-decoration: none; font-size: 12px;">République tchèque</a>
+        </div>
+        <div class="col">
+            <a href="" style="text-decoration: none; font-size: 12px;">Portugal</a>
+        </div>
+        <div class="col">
+            <a href="" style="text-decoration: none; font-size: 12px;">Mexique</a>
+        </div>
+        <div class="col">
+            <a href="" style="text-decoration: none; font-size: 12px;">Colombie</a>
+        </div>
+        </div>
+    </div>
+  </footer>
 </html>
