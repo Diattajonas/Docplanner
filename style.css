@@ -16,31 +16,28 @@ header{
     justify-content: space-around;
 }
 
-.navBar{
+.navbar{
     display: flex;
     justify-content: space-around;
-}
-.nav :nth-child(1){
-    color: #00b39b;
-    font-size: 20px;
-    text-decoration: none;
+
 }
 
-.nav :nth-child(2){
-    color: #747474;
-    font-size: 20px;
-    text-decoration: none;
-}
 
-.nav :nth-child(3){
-    color:#747474;
-    font-size: 20px;
-    text-decoration: none;
-}
- .logo img{
+.logo{
     width: 40px;
     height: 40px;
-    float: left;
+    margin-left: -30px;
+}
+
+.logoDOC {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.logoDOC h6{
+    justify-items: center;
+    padding-top: 15px;
+    margin-left: 5px;
 }
 
 .etoile{
