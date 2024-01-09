@@ -22,6 +22,19 @@ header{
 
 }
 
+.navbar a{
+    color: #747474;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar a:hover{
+    color: #00b39b;
+}
+
+.navbar li:nth-child(1){
+    color: #00b39b;
+}
 
 .logo{
     width: 40px;
